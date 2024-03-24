@@ -9,7 +9,7 @@ Before you begin, ensure you have Docker installed on your system. Docker is ava
 # Setup
 
    1. Clone the repository: First, clone this repository to your local machine using Git. If Git is not installed, download the ZIP file directly from the repository page.
-      git clone https://your-repository-url.git
+      git clone https://github.com/angelk982/Web-Server-Fingerprint-Analysis-Tool.git
       cd your-repository-directory
 
    2. Build the Docker image: Navigate to the directory containing the Dockerfile and run the following command to build the Docker image. This step compiles your Docker image with all the necessary dependencies.
