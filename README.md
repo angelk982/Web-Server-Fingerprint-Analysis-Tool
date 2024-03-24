@@ -34,6 +34,7 @@ To run the tool, use the following Docker command. You can pass specific argumen
 docker run tool http://example.com --info all --output json
 ```
 ### Arguments
-    --url - The URL of the web server you wish to analyze.
-    --info - The type of information to retrieve. Options are all, web, ports, tech. Default is all.
-    --output - The output format. Choose between hash for a SHA-256 hash of the server information or json for raw data. Default is hash.
+- **`--url`** - The URL of the web server you wish to analyze.
+- **`--info`** - The type of information to retrieve. Options are `all`, `web`, `ports`, `tech`. Default is `all`.
+- **`--output`** - The output format. Choose between `hash` for a SHA-256 hash of the server information or `json` for raw data. Default is `hash`.
+
