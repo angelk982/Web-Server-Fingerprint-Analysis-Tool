@@ -1,10 +1,9 @@
-# Use an official Alpine-based Python image
 FROM python:3.9-alpine
 
-# Set the working directory in the container
+# Setting the working directory in the container
 WORKDIR /app
 
-# Install dependencies required for nmap and other build processes
+# Install dependencies required for nmap
 RUN apk add --no-cache gcc musl-dev linux-headers nmap nmap-scripts
 
 # Copy the current directory contents into the container at /app
