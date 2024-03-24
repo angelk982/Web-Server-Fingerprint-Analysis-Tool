@@ -14,6 +14,8 @@ First, clone this repository to your local machine using Git. If Git is not inst
 
 ```bash
 git clone https://github.com/angelk982/Web-Server-Fingerprint-Analysis-Tool.git
+```
+```bash
 cd Web-Server-Fingerprint-Analysis-Tool
 ```
 ### 2. Build the Docker Image
