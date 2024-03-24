@@ -31,7 +31,7 @@ This command builds an image named tool based on the Dockerfile in the current d
 To run the tool, use the following Docker command. You can pass specific arguments to the tool by appending them after the image name. The tool accepts arguments for specifying the URL of the web server to analyze, the type of information to retrieve (--info), and the output format (--output).
 
 ```bash
-docker run tool --url http://example.com --info all --output json
+docker run tool http://example.com --info all --output json
 ```
 ### Arguments
     --url - The URL of the web server you wish to analyze.
